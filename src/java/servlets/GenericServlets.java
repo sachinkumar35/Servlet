@@ -9,7 +9,7 @@ import javax.servlet.ServletRequest;
 import javax.servlet.ServletResponse;
 
 
-public class SecondServlet extends GenericServlet{
+public class GenericServlets extends GenericServlet{
 
     @Override
     public void service(ServletRequest req, ServletResponse res) throws ServletException, IOException {
